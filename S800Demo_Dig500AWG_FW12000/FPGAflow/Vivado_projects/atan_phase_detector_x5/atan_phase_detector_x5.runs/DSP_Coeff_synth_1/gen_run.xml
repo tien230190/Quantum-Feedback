@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="DSP_Coeff_synth_1" LaunchPart="xc7k160tffg676-2" LaunchTime="1483441410">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/DSP_Coeff_synth_1/constrs_in.xml"/>
+  <File Type="RDS-DCP" Name="DSP_Coeff.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/DSP_Coeff_synth_1/sources.xml"/>
+  <File Type="RDS-UTIL-PB" Name="DSP_Coeff_utilization_synth.pb"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/DSP_Coeff_synth_1/DSP_Coeff_synth_1.psg"/>
+  <File Type="PA-TCL" Name="DSP_Coeff.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="DSP_Coeff_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="DSP_Coeff.vds"/>
+  <File Type="RDS-UTIL" Name="DSP_Coeff_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="DSP_Coeff_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="DSP_Coeff_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DSP_Coeff">
+    <File Path="$PSRCDIR/sources_1/ip/DSP_Coeff/DSP_Coeff.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DSP_Coeff"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DSP_Coeff">
+    <File Path="$PSRCDIR/sources_1/ip/DSP_Coeff/DSP_Coeff.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DSP_Coeff"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

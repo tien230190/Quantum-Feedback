@@ -1,0 +1,29 @@
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Debug\phase_detector.exe
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Debug\phase_detector.pdb
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Debug\Signadyne.dll
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Debug\Signadyne.pdb
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Debug\phase_detector.exe
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Debug\phase_detector.pdb
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.exe
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.pdb
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\bin\Debug\phase_detector.exe
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\bin\Debug\phase_detector.pdb
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\bin\Debug\Signadyne.pdb
+C:\S800_FPGA_S16_LAB1\Part1\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.csprojResolveAssemblyReference.cache
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\bin\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\bin\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\bin\Debug\Signadyne.pdb
+W:\Demo MIT\S800Demo_DigAWG\FPGAflow\VS_project\phase_detector\phase_detector\obj\Debug\phase_detector.csprojResolveAssemblyReference.cache
+W:\Demo MIT\S800Demo_Dig500AWG\FPGAflow\VS_project\phase_detector_x5\phase_detector\bin\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_Dig500AWG\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.csprojResolveAssemblyReference.cache
+W:\Demo MIT\S800Demo_Dig500AWG\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_Dig500AWG\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_Dig500AWG\FPGAflow\VS_project\phase_detector_x5\phase_detector\bin\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_Dig500AWG_rev2\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_Dig500AWG_rev2\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_Dig500AWG_rev2\FPGAflow\VS_project\phase_detector_x5\phase_detector\bin\Debug\phase_detector.exe
+W:\Demo MIT\S800Demo_Dig500AWG_rev2\FPGAflow\VS_project\phase_detector_x5\phase_detector\bin\Debug\phase_detector.pdb
+W:\Demo MIT\S800Demo_Dig500AWG_rev2\FPGAflow\VS_project\phase_detector_x5\phase_detector\obj\Debug\phase_detector.csprojResolveAssemblyReference.cache

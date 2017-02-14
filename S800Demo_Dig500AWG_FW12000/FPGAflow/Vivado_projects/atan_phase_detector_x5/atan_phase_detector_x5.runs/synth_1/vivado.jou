@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jan 04 16:56:53 2017
+# Process ID: 189780
+# Log file: C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/atan_phase_detector_x5.vds
+# Journal file: C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source atan_phase_detector_x5.tcl -notrace

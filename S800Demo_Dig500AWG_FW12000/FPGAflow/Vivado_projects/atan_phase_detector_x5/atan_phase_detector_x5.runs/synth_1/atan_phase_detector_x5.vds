@@ -1,0 +1,430 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jan 04 16:56:53 2017
+# Process ID: 189780
+# Log file: C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/atan_phase_detector_x5.vds
+# Journal file: C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source atan_phase_detector_x5.tcl -notrace
+Command: synth_design -top atan_phase_detector_x5 -part xc7k160tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 243.695 ; gain = 61.699
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:178]
+WARNING: [Synth 8-1565] actual for formal port s_axis_cartesian_tvalid is neither a static name nor a globally static expression [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:242]
+WARNING: [Synth 8-1565] actual for formal port s_axis_cartesian_tdata is neither a static name nor a globally static expression [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'atan_phase_detector_x5' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:69]
+WARNING: [Synth 8-614] signal 'data_valid' is read in the process but is not in the sensitivity list [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:162]
+WARNING: [Synth 8-614] signal 'DataIn_sdi_dataStreamFCx5_S_valid' is read in the process but is not in the sensitivity list [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:162]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'sin_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'cos_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:186]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'sin_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:180]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'cos_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:186]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'sin_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:180]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'cos_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:186]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'sin_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:180]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'cos_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:186]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'sin_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:180]
+INFO: [Synth 8-3491] module 'DSP_ref' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_ref_stub.vhdl:5' bound to instance 'cos_mult' of component 'DSP_ref' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:186]
+INFO: [Synth 8-3491] module 'avg_filter_x5' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:40' bound to instance 'I_filter' of component 'avg_filter_x5' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'avg_filter_x5' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:53]
+INFO: [Synth 8-3491] module 'mult_32_16' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/mult_32_16_stub.vhdl:5' bound to instance 'shift_dsp' of component 'mult_32_16' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'mult_32_16' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/mult_32_16_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'DSP_Coeff' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_Coeff_stub.vhdl:5' bound to instance 'coeff_dsp' of component 'DSP_Coeff' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'DSP_Coeff' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/DSP_Coeff_stub.vhdl:15]
+WARNING: [Synth 8-614] signal 'valid_shift' is read in the process but is not in the sensitivity list [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:189]
+WARNING: [Synth 8-614] signal 'mult_out' is read in the process but is not in the sensitivity list [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:189]
+WARNING: [Synth 8-3936] Found unconnected internal register 'valid_shift_reg' and it is trimmed from '7' to '6' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:185]
+WARNING: [Synth 8-3936] Found unconnected internal register 'acc_shifted_valid_reg' and it is trimmed from '7' to '6' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'avg_filter_x5' (1#1) [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:53]
+INFO: [Synth 8-3491] module 'avg_filter_x5' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:40' bound to instance 'Q_filter' of component 'avg_filter_x5' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:214]
+INFO: [Synth 8-3491] module 'cordic_translate' declared at 'C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/cordic_translate_stub.vhdl:5' bound to instance 'cordic_trans' of component 'cordic_translate' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'cordic_translate' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.runs/synth_1/.Xil/Vivado-189780-G1LCQC2/realtime/cordic_translate_stub.vhdl:16]
+WARNING: [Synth 8-3936] Found unconnected internal register 'data_valid_reg' and it is trimmed from '3' to '2' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'atan_phase_detector_x5' (2#1) [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/atan_phase_detector_x5.vhd:69]
+WARNING: [Synth 8-3331] design atan_phase_detector_x5 has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 276.770 ; gain = 94.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 276.770 ; gain = 94.773
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 590.102 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'valid_shift_reg' and it is trimmed from '6' to '5' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:185]
+WARNING: [Synth 8-3936] Found unconnected internal register 'acc_shifted_valid_reg' and it is trimmed from '6' to '5' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:161]
+WARNING: [Synth 8-327] inferring latch for variable 'data_out_reg' [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:193]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     32 Bit       Adders := 2     
+	   6 Input     32 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               25 Bit    Registers := 2     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	                5 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 7     
+	   3 Input     16 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module atan_phase_detector_x5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 12    
+	   2 Input     16 Bit        Muxes := 1     
+Module avg_filter_x5 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     32 Bit       Adders := 1     
+	   6 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               25 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'valid_shift_reg' and it is trimmed from '5' to '4' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:185]
+WARNING: [Synth 8-3936] Found unconnected internal register 'acc_shifted_valid_reg' and it is trimmed from '5' to '4' bits. [C:/Users/puertask/Documents/atan_phase_detector_x5/atan_phase_detector_x5.srcs/sources_1/new/avg_filter_x5.vhd:161]
+WARNING: [Synth 8-3331] design atan_phase_detector_x5 has unconnected port rst
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 590.102 ; gain = 408.105
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[39] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[38] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[37] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[36] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[35] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[34] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[33] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[32] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[31] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[30] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[12] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[11] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[10] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[9] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[8] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[7] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[6] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[5] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[4] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[3] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[2] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[1] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/data_out_reg[0] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[23] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[22] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[21] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[20] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[19] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[18] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[17] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\I_filter/coef_mult_in_reg[16] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[39] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[38] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[37] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[36] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[35] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[34] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[33] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[32] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[31] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[30] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[12] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[11] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[10] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[9] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[8] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[7] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[6] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[5] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[4] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[3] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[2] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[1] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/data_out_reg[0] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[23] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[22] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[21] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[20] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[19] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[18] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[17] ) is unused and will be removed from module atan_phase_detector_x5.
+WARNING: [Synth 8-3332] Sequential element (\Q_filter/coef_mult_in_reg[16] ) is unused and will be removed from module atan_phase_detector_x5.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 590.102 ; gain = 408.105
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 590.102 ; gain = 408.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++-----------------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name            | RTL Name                          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|atan_phase_detector_x5 | I_filter/acc_shifted_valid_reg[3] | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|atan_phase_detector_x5 | I_filter/valid_shift_reg[3]       | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|atan_phase_detector_x5 | Q_filter/acc_shifted_valid_reg[3] | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|atan_phase_detector_x5 | Q_filter/valid_shift_reg[3]       | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-----------------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |cordic_translate |         1|
+|2     |DSP_ref          |        10|
+|3     |mult_32_16       |         2|
+|4     |DSP_Coeff        |         2|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |DSP_Coeff_bbox        |     1|
+|2     |DSP_Coeff_bbox__1     |     1|
+|3     |DSP_ref_bbox          |     1|
+|4     |DSP_ref_bbox_0        |     1|
+|5     |DSP_ref_bbox_1        |     1|
+|6     |DSP_ref_bbox_2        |     1|
+|7     |DSP_ref_bbox_3        |     1|
+|8     |DSP_ref_bbox_4        |     1|
+|9     |DSP_ref_bbox_5        |     1|
+|10    |DSP_ref_bbox_6        |     1|
+|11    |DSP_ref_bbox_7        |     1|
+|12    |DSP_ref_bbox_8        |     1|
+|13    |cordic_translate_bbox |     1|
+|14    |mult_32_16_bbox       |     1|
+|15    |mult_32_16_bbox__1    |     1|
+|16    |BUFG                  |     1|
+|17    |CARRY4                |    76|
+|18    |LUT1                  |    76|
+|19    |LUT2                  |    66|
+|20    |LUT3                  |   235|
+|21    |LUT4                  |    18|
+|22    |LUT5                  |   192|
+|23    |LUT6                  |   149|
+|24    |SRL16E                |     4|
+|25    |FDRE                  |   249|
+|26    |LD                    |    36|
+|27    |IBUF                  |   290|
+|28    |OBUF                  |    35|
++------+----------------------+------+
+
+Report Instance Areas: 
++------+-----------+----------------+------+
+|      |Instance   |Module          |Cells |
++------+-----------+----------------+------+
+|1     |top        |                |  1974|
+|2     |  I_filter |avg_filter_x5   |   472|
+|3     |  Q_filter |avg_filter_x5_0 |   473|
++------+-----------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 68 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 611.457 ; gain = 98.688
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 429.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  LD => LDCE: 36 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 79 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 611.457 ; gain = 414.043
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 611.457 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 04 16:57:36 2017...

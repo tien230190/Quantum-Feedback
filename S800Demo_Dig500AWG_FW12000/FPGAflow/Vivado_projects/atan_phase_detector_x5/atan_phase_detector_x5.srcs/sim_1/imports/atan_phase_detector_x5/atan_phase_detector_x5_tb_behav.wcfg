@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="atan_phase_detector_x5_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="atan_phase_detector_x5_tb" />
+            <top_module name="datalib" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="group141" type="group">
+      <obj_property name="label">External</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_data_0" type="array">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_data_0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_data_0[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_data_1" type="array">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_data_1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_data_1[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_data_2" type="array">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_data_2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_data_2[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_data_3" type="array">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_data_3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_data_3[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_data_4" type="array">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_data_4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_data_4[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/DataIn_sdi_dataStreamFCx5_S_valid" type="logic">
+         <obj_property name="ElementShortName">DataIn_sdi_dataStreamFCx5_S_valid</obj_property>
+         <obj_property name="ObjectShortName">DataIn_sdi_dataStreamFCx5_S_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group142" type="group">
+      <obj_property name="label">Reference</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_sdi_dataStreamx5_S_data_0" type="array">
+         <obj_property name="ElementShortName">sin_sdi_dataStreamx5_S_data_0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_sdi_dataStreamx5_S_data_0[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_sdi_dataStreamx5_S_data_1" type="array">
+         <obj_property name="ElementShortName">sin_sdi_dataStreamx5_S_data_1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_sdi_dataStreamx5_S_data_1[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_sdi_dataStreamx5_S_data_2" type="array">
+         <obj_property name="ElementShortName">sin_sdi_dataStreamx5_S_data_2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_sdi_dataStreamx5_S_data_2[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_sdi_dataStreamx5_S_data_3" type="array">
+         <obj_property name="ElementShortName">sin_sdi_dataStreamx5_S_data_3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_sdi_dataStreamx5_S_data_3[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_sdi_dataStreamx5_S_data_4" type="array">
+         <obj_property name="ElementShortName">sin_sdi_dataStreamx5_S_data_4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sin_sdi_dataStreamx5_S_data_4[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_sdi_dataStreamx5_S_data_0" type="array">
+         <obj_property name="ElementShortName">cos_sdi_dataStreamx5_S_data_0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_sdi_dataStreamx5_S_data_0[15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_sdi_dataStreamx5_S_data_1" type="array">
+         <obj_property name="ElementShortName">cos_sdi_dataStreamx5_S_data_1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_sdi_dataStreamx5_S_data_1[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_sdi_dataStreamx5_S_data_2" type="array">
+         <obj_property name="ElementShortName">cos_sdi_dataStreamx5_S_data_2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_sdi_dataStreamx5_S_data_2[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_sdi_dataStreamx5_S_data_3" type="array">
+         <obj_property name="ElementShortName">cos_sdi_dataStreamx5_S_data_3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_sdi_dataStreamx5_S_data_3[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_sdi_dataStreamx5_S_data_4" type="array">
+         <obj_property name="ElementShortName">cos_sdi_dataStreamx5_S_data_4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cos_sdi_dataStreamx5_S_data_4[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/phase" type="array">
+      <obj_property name="ElementShortName">phase[15:0]</obj_property>
+      <obj_property name="ObjectShortName">phase[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/module" type="array">
+      <obj_property name="ElementShortName">module[17:0]</obj_property>
+      <obj_property name="ObjectShortName">module[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/sin_mult_out" type="array">
+      <obj_property name="ElementShortName">sin_mult_out[0:4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_mult_out[0:4][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_in" type="array">
+      <obj_property name="ElementShortName">I_in[0:4][15:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in[0:4][15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/cos_mult_out" type="array">
+      <obj_property name="ElementShortName">cos_mult_out[0:4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_mult_out[0:4][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_in" type="array">
+      <obj_property name="ElementShortName">Q_in[0:4][15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_in[0:4][15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_out" type="array">
+      <obj_property name="ElementShortName">I_out[40:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out[40:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_out" type="array">
+      <obj_property name="ElementShortName">Q_out[40:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_out[40:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_valid" type="logic">
+      <obj_property name="ElementShortName">I_valid</obj_property>
+      <obj_property name="ObjectShortName">I_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_valid" type="logic">
+      <obj_property name="ElementShortName">Q_valid</obj_property>
+      <obj_property name="ObjectShortName">Q_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/setFreq" type="logic">
+      <obj_property name="ElementShortName">setFreq</obj_property>
+      <obj_property name="ObjectShortName">setFreq</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_out" type="array">
+      <obj_property name="ElementShortName">acc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider405">
+      <obj_property name="label">ARCTAN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider515">
+      <obj_property name="label">I_FILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4209" type="group">
+      <obj_property name="label">I_FILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider4238">
+      </wvobject>
+      <wvobject type="divider" fp_name="divider4237">
+      </wvobject>
+      <wvobject type="divider" fp_name="divider4210">
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[0:4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:4][15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in_valid" type="logic">
+         <obj_property name="ElementShortName">data_in_valid</obj_property>
+         <obj_property name="ObjectShortName">data_in_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/mult_coef" type="array">
+         <obj_property name="ElementShortName">mult_coef[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mult_coef[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift_value" type="array">
+         <obj_property name="ElementShortName">shift_value[15:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_value[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_value" type="array">
+         <obj_property name="ElementShortName">acc_value[15:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_value[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/A" type="array">
+         <obj_property name="ElementShortName">A[24:0]</obj_property>
+         <obj_property name="ObjectShortName">A[24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/P" type="array">
+         <obj_property name="ElementShortName">P[40:0]</obj_property>
+         <obj_property name="ObjectShortName">P[40:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[40:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[40:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_out_valid" type="logic">
+         <obj_property name="ElementShortName">data_out_valid</obj_property>
+         <obj_property name="ObjectShortName">data_out_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coef_mult_in" type="array">
+         <obj_property name="ElementShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_mult_in[24:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc" type="array">
+         <obj_property name="ElementShortName">acc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">acc[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift_value_int" type="array">
+         <obj_property name="ElementShortName">shift_value_int[15:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_value_int[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_cnt" type="array">
+         <obj_property name="ElementShortName">acc_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_cnt[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_valid" type="logic">
+         <obj_property name="ElementShortName">acc_valid</obj_property>
+         <obj_property name="ObjectShortName">acc_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_out" type="array">
+         <obj_property name="ElementShortName">acc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_shifted" type="array">
+         <obj_property name="ElementShortName">acc_shifted[47:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_shifted[47:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/acc_shifted_valid" type="array">
+         <obj_property name="ElementShortName">acc_shifted_valid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_shifted_valid[6:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/mult_out" type="array">
+         <obj_property name="ElementShortName">mult_out[40:0]</obj_property>
+         <obj_property name="ObjectShortName">mult_out[40:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/valid_shift" type="array">
+         <obj_property name="ElementShortName">valid_shift[6:0]</obj_property>
+         <obj_property name="ObjectShortName">valid_shift[6:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift" type="other">
+         <obj_property name="ElementShortName">shift</obj_property>
+         <obj_property name="ObjectShortName">shift</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in0" type="array">
+         <obj_property name="ElementShortName">data_in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in0[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in1" type="array">
+         <obj_property name="ElementShortName">data_in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in2" type="array">
+         <obj_property name="ElementShortName">data_in2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in3" type="array">
+         <obj_property name="ElementShortName">data_in3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in3[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/data_in4" type="array">
+         <obj_property name="ElementShortName">data_in4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in4[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5528" type="group">
+      <obj_property name="label">Shift</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift_dsp/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift_dsp/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/shift_dsp/P" type="array">
+         <obj_property name="ElementShortName">P[47:0]</obj_property>
+         <obj_property name="ObjectShortName">P[47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coef_mult_in" type="array">
+         <obj_property name="ElementShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5533" type="group">
+      <obj_property name="label">Coeff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/A" type="array">
+         <obj_property name="ElementShortName">A[24:0]</obj_property>
+         <obj_property name="ObjectShortName">A[24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_filter/coeff_dsp/P" type="array">
+         <obj_property name="ElementShortName">P[40:0]</obj_property>
+         <obj_property name="ObjectShortName">P[40:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/I_atan" type="array">
+      <obj_property name="ElementShortName">I_atan[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I_atan[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4239">
+      <obj_property name="label">Q_FILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4236" type="group">
+      <obj_property name="label">Q_FILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[0:4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:4][15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in_valid" type="logic">
+         <obj_property name="ElementShortName">data_in_valid</obj_property>
+         <obj_property name="ObjectShortName">data_in_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/mult_coef" type="array">
+         <obj_property name="ElementShortName">mult_coef[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mult_coef[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift_value" type="array">
+         <obj_property name="ElementShortName">shift_value[15:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_value[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_value" type="array">
+         <obj_property name="ElementShortName">acc_value[15:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_value[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[40:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[40:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_out_valid" type="logic">
+         <obj_property name="ElementShortName">data_out_valid</obj_property>
+         <obj_property name="ObjectShortName">data_out_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/coef_mult_in" type="array">
+         <obj_property name="ElementShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_mult_in[24:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc" type="array">
+         <obj_property name="ElementShortName">acc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">acc[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_out" type="array">
+         <obj_property name="ElementShortName">acc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_cnt" type="array">
+         <obj_property name="ElementShortName">acc_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_valid" type="logic">
+         <obj_property name="ElementShortName">acc_valid</obj_property>
+         <obj_property name="ObjectShortName">acc_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_shifted_valid" type="array">
+         <obj_property name="ElementShortName">acc_shifted_valid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_shifted_valid[6:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift" type="other">
+         <obj_property name="ElementShortName">shift</obj_property>
+         <obj_property name="ObjectShortName">shift</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/acc_shifted" type="array">
+         <obj_property name="ElementShortName">acc_shifted[47:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_shifted[47:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/mult_out" type="array">
+         <obj_property name="ElementShortName">mult_out[40:0]</obj_property>
+         <obj_property name="ObjectShortName">mult_out[40:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/valid_shift" type="array">
+         <obj_property name="ElementShortName">valid_shift[6:0]</obj_property>
+         <obj_property name="ObjectShortName">valid_shift[6:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in0" type="array">
+         <obj_property name="ElementShortName">data_in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in0[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in1" type="array">
+         <obj_property name="ElementShortName">data_in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in2" type="array">
+         <obj_property name="ElementShortName">data_in2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in3" type="array">
+         <obj_property name="ElementShortName">data_in3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in3[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/data_in4" type="array">
+         <obj_property name="ElementShortName">data_in4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in4[31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift_value_int" type="array">
+         <obj_property name="ElementShortName">shift_value_int[15:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_value_int[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_atan" type="array">
+      <obj_property name="ElementShortName">Q_atan[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_atan[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group6086" type="group">
+      <obj_property name="label">Shift</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift_dsp/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift_dsp/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/shift_dsp/P" type="array">
+         <obj_property name="ElementShortName">P[47:0]</obj_property>
+         <obj_property name="ObjectShortName">P[47:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/coef_mult_in" type="array">
+         <obj_property name="ElementShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="ObjectShortName">coef_mult_in[24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group6090" type="group">
+      <obj_property name="label">coeff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/coeff_dsp/A" type="array">
+         <obj_property name="ElementShortName">A[24:0]</obj_property>
+         <obj_property name="ObjectShortName">A[24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/coeff_dsp/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/arc_tan/Q_filter/coeff_dsp/P" type="array">
+         <obj_property name="ElementShortName">P[40:0]</obj_property>
+         <obj_property name="ObjectShortName">P[40:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atan_phase_detector_x5_tb/oscillator/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+</wave_config>

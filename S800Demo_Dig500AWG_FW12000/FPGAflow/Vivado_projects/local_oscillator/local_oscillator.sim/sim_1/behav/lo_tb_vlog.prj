@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "Z:/FPGA_DSP/Source/prngen.v"
+verilog xil_defaultlib  "Z:/FPGA_DSP/Source/phaseGen.v"
+verilog xil_defaultlib  "Z:/FPGA_DSP/Source/loLookup.v"
+verilog xil_defaultlib  "Z:/FPGA_DSP/Source/lo.v"
+verilog xil_defaultlib  "Z:/FPGA_DSP/Simul/lo_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Release\phase_detector.exe
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Release\phase_detector.pdb
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Release\Signadyne.dll
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\bin\Release\Signadyne.pdb
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Release\ResolveAssemblyReference.cache
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Release\phase_detector.exe
+C:\Users\eneas.puertas\Documents\Visual Studio 2008\Projects\phase_detector\phase_detector\obj\Release\phase_detector.pdb

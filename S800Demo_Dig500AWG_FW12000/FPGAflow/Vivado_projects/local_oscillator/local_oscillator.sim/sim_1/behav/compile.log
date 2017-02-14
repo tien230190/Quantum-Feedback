@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/FPGA_DSP/Source/prngen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prngen
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/FPGA_DSP/Source/phaseGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phaseGen
+INFO: [VRFC 10-311] analyzing module bitreverse
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/FPGA_DSP/Source/loLookup.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module loLookup
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/FPGA_DSP/Source/lo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lo
+INFO: [VRFC 10-311] analyzing module loChan
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/FPGA_DSP/Simul/lo_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lo_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/puertask/Documents/local_oscillator/local_oscillator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/puertask/Documents/local_oscillator/local_oscillator.sim/sim_1/behav/glbl.v:6]

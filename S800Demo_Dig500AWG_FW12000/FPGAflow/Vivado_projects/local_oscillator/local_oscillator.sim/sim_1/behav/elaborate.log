@@ -1,0 +1,45 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto ce2076609a74405f92337d41e9847673 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lo_tb_behav xil_defaultlib.lo_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.prngen
+Compiling module xil_defaultlib.bitreverse
+Compiling module xil_defaultlib.phaseGen_default
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE_2
+Compiling module unisims_ver.FDRE(INIT=1'b0)_2
+Compiling module unisims_ver.FDR
+Compiling module unisims_ver.FD
+Compiling module unisims_ver.XORCY
+Compiling module unisims_ver.MUXCY
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB36E1(INIT_01=256'b0100000001...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB36E1(INITP_00=256'b011111111...
+Compiling module unisims_ver.FDE
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.sffsrce_fdse
+Compiling module unisims_ver.FDSE(INIT=1'b1)_2
+Compiling module unisims_ver.FDS
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.INV
+Compiling module xil_defaultlib.loLookup
+Compiling module xil_defaultlib.loChan
+Compiling module xil_defaultlib.lo
+Compiling module xil_defaultlib.lo_tb
+Waiting for 4 sub-compilation(s) to finish...
+Built simulation snapshot lo_tb_behav

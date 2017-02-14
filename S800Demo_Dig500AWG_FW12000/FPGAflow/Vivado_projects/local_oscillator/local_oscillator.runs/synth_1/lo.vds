@@ -1,0 +1,525 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jan 04 16:56:59 2017
+# Process ID: 186344
+# Log file: C:/Users/puertask/Documents/local_oscillator/local_oscillator.runs/synth_1/lo.vds
+# Journal file: C:/Users/puertask/Documents/local_oscillator/local_oscillator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lo.tcl -notrace
+Command: synth_design -top lo -part xc7k160tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 244.902 ; gain = 61.855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lo' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/lo.v:30]
+	Parameter delay bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'phaseGen' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/phaseGen.v:22]
+	Parameter ASIZE bound to: 24 - type: integer 
+	Parameter BSIZE bound to: 24 - type: integer 
+	Parameter DIV5 bound to: 52428 - type: integer 
+	Parameter DIV5SIZE bound to: 16 - type: integer 
+	Parameter ADIV5SIZE bound to: 40 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'prngen' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/prngen.v:37]
+	Parameter PRNINIT bound to: 36'b000000000000000000000001111111111100 
+INFO: [Synth 8-256] done synthesizing module 'prngen' (1#1) [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/prngen.v:37]
+INFO: [Synth 8-638] synthesizing module 'bitreverse' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/phaseGen.v:183]
+	Parameter size bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bitreverse' (2#1) [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/phaseGen.v:183]
+INFO: [Synth 8-256] done synthesizing module 'phaseGen' (3#1) [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/phaseGen.v:22]
+INFO: [Synth 8-638] synthesizing module 'loChan' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:22]
+	Parameter size bound to: 15 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'loLookup' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/loLookup.v:36]
+INFO: [Synth 8-256] done synthesizing module 'loChan' (4#1) [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:22]
+INFO: [Synth 8-256] done synthesizing module 'lo' (5#1) [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/lo.v:30]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 279.086 ; gain = 96.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 279.086 ; gain = 96.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 279.086 ; gain = 96.039
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 287.160 ; gain = 104.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input     24 Bit       Adders := 6     
+	   2 Input     24 Bit       Adders := 2     
++---XORs : 
+	   2 Input     13 Bit         XORs := 1     
+	   2 Input     11 Bit         XORs := 1     
++---Registers : 
+	               36 Bit    Registers := 1     
+	               24 Bit    Registers := 16    
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 20    
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module prngen 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     13 Bit         XORs := 1     
+	   2 Input     11 Bit         XORs := 1     
++---Registers : 
+	               36 Bit    Registers := 1     
+Module phaseGen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
+	   3 Input     24 Bit       Adders := 6     
+	   2 Input     24 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 16    
+	               23 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module loChan 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 429.277 ; gain = 246.230
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'phaseGen/ain_d_reg[23:0]' into 'phaseGen/ain_d_reg[23:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/phaseGen.v:104]
+INFO: [Synth 8-4471] merging register 'loChan1/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan2/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan2/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan3/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan3/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan4/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan4/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan5/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan5/rx_reg[15:0]' into 'loChan1/rx_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:66]
+INFO: [Synth 8-4471] merging register 'loChan1/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan2/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan2/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan3/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan3/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan4/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan4/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan5/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+INFO: [Synth 8-4471] merging register 'loChan5/rx2_reg[15:0]' into 'loChan1/rx2_reg[15:0]' [C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/new/loChan.v:67]
+DSP Report: Generating DSP loChan1/mReal_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan1/mReal_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan1/mReal_reg.
+DSP Report: register loChan1/mReal_reg is absorbed into DSP loChan1/mReal_reg.
+DSP Report: operator loChan1/mReal0 is absorbed into DSP loChan1/mReal_reg.
+DSP Report: operator loChan1/mReal1 is absorbed into DSP loChan1/mReal_reg.
+DSP Report: Generating DSP loChan1/mImag_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan1/mImag_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan1/mImag_reg.
+DSP Report: register loChan1/mImag_reg is absorbed into DSP loChan1/mImag_reg.
+DSP Report: operator loChan1/mImag0 is absorbed into DSP loChan1/mImag_reg.
+DSP Report: operator loChan1/mImag1 is absorbed into DSP loChan1/mImag_reg.
+DSP Report: Generating DSP loChan2/mReal_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan2/mReal_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan2/mReal_reg.
+DSP Report: register loChan2/mReal_reg is absorbed into DSP loChan2/mReal_reg.
+DSP Report: operator loChan2/mReal0 is absorbed into DSP loChan2/mReal_reg.
+DSP Report: operator loChan2/mReal1 is absorbed into DSP loChan2/mReal_reg.
+DSP Report: Generating DSP loChan2/mImag_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan2/mImag_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan2/mImag_reg.
+DSP Report: register loChan2/mImag_reg is absorbed into DSP loChan2/mImag_reg.
+DSP Report: operator loChan2/mImag0 is absorbed into DSP loChan2/mImag_reg.
+DSP Report: operator loChan2/mImag1 is absorbed into DSP loChan2/mImag_reg.
+DSP Report: Generating DSP loChan3/mReal_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan3/mReal_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan3/mReal_reg.
+DSP Report: register loChan3/mReal_reg is absorbed into DSP loChan3/mReal_reg.
+DSP Report: operator loChan3/mReal0 is absorbed into DSP loChan3/mReal_reg.
+DSP Report: operator loChan3/mReal1 is absorbed into DSP loChan3/mReal_reg.
+DSP Report: Generating DSP loChan3/mImag_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan3/mImag_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan3/mImag_reg.
+DSP Report: register loChan3/mImag_reg is absorbed into DSP loChan3/mImag_reg.
+DSP Report: operator loChan3/mImag0 is absorbed into DSP loChan3/mImag_reg.
+DSP Report: operator loChan3/mImag1 is absorbed into DSP loChan3/mImag_reg.
+DSP Report: Generating DSP loChan4/mReal_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan4/mReal_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan4/mReal_reg.
+DSP Report: register loChan4/mReal_reg is absorbed into DSP loChan4/mReal_reg.
+DSP Report: operator loChan4/mReal0 is absorbed into DSP loChan4/mReal_reg.
+DSP Report: operator loChan4/mReal1 is absorbed into DSP loChan4/mReal_reg.
+DSP Report: Generating DSP loChan4/mImag_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan4/mImag_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan4/mImag_reg.
+DSP Report: register loChan4/mImag_reg is absorbed into DSP loChan4/mImag_reg.
+DSP Report: operator loChan4/mImag0 is absorbed into DSP loChan4/mImag_reg.
+DSP Report: operator loChan4/mImag1 is absorbed into DSP loChan4/mImag_reg.
+DSP Report: Generating DSP loChan5/mReal_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan5/mReal_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan5/mReal_reg.
+DSP Report: register loChan5/mReal_reg is absorbed into DSP loChan5/mReal_reg.
+DSP Report: operator loChan5/mReal0 is absorbed into DSP loChan5/mReal_reg.
+DSP Report: operator loChan5/mReal1 is absorbed into DSP loChan5/mReal_reg.
+DSP Report: Generating DSP loChan5/mImag_reg, operation Mode is: ((C:0x4000)+(A:0x7fff)''*B)'.
+DSP Report: register loChan1/rx_reg is absorbed into DSP loChan5/mImag_reg.
+DSP Report: register loChan1/rx2_reg is absorbed into DSP loChan5/mImag_reg.
+DSP Report: register loChan5/mImag_reg is absorbed into DSP loChan5/mImag_reg.
+DSP Report: operator loChan5/mImag0 is absorbed into DSP loChan5/mImag_reg.
+DSP Report: operator loChan5/mImag1 is absorbed into DSP loChan5/mImag_reg.
+DSP Report: Generating DSP phaseGen/aDiv5_reg, operation Mode is: (A2*(B:0xcccc))'.
+DSP Report: register phaseGen/ain_d_reg is absorbed into DSP phaseGen/aDiv5_reg.
+DSP Report: register phaseGen/aDiv5_reg is absorbed into DSP phaseGen/aDiv5_reg.
+DSP Report: operator phaseGen/aDiv50 is absorbed into DSP phaseGen/aDiv5_reg.
+WARNING: [Synth 8-3331] design lo has unconnected port ain[31]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[30]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[29]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[28]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[27]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[26]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[25]
+WARNING: [Synth 8-3331] design lo has unconnected port ain[24]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[31]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[30]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[29]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[28]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[27]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[26]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[25]
+WARNING: [Synth 8-3331] design lo has unconnected port bin[24]
+WARNING: [Synth 8-3331] design lo has unconnected port min[31]
+WARNING: [Synth 8-3331] design lo has unconnected port min[30]
+WARNING: [Synth 8-3331] design lo has unconnected port min[29]
+WARNING: [Synth 8-3331] design lo has unconnected port min[28]
+WARNING: [Synth 8-3331] design lo has unconnected port min[27]
+WARNING: [Synth 8-3331] design lo has unconnected port min[26]
+WARNING: [Synth 8-3331] design lo has unconnected port min[25]
+WARNING: [Synth 8-3331] design lo has unconnected port min[24]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 430.434 ; gain = 247.387
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 430.434 ; gain = 247.387
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP:
++------------+------------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                  | Neg Edge Clk | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|loChan      | ((C:0x4000)+(A:0x7fff)''*B)' | No           | 16     | 16     | 16     | 25     | 31     | 0    | 2    | 0    | 1    | 1     | 0    | 1    | 
+|phaseGen    | (A2*(B:0xcccc))'             | No           | 24     | 16     | 48     | 25     | 40     | 1    | 0    | 1    | 1    | 1     | 1    | 0    | 
++------------+------------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/ain_d_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/ain_d_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/phase_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/phase_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p1_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a3_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a3_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p2_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p3_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p4_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[23] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[22] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/p5_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[0] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[1] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[2] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[3] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[4] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[5] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[6] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[8] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[7] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[9] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[8] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[10] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[9] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[11] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[10] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[12] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[11] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[13] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[12] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[14] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[13] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[15] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[14] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[16] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[15] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[17] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[16] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[18] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[17] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[19] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[18] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a2_reg[20] ) is unused and will be removed from module lo.
+WARNING: [Synth 8-3332] Sequential element (\phaseGen/a1_reg[19] ) is unused and will be removed from module lo.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 441.129 ; gain = 258.082
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 441.129 ; gain = 258.082
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 441.129 ; gain = 258.082
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 441.129 ; gain = 258.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |loLookup      |         5|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |loLookup_bbox    |     1|
+|2     |loLookup_bbox__1 |     1|
+|3     |loLookup_bbox__2 |     1|
+|4     |loLookup_bbox__3 |     1|
+|5     |loLookup_bbox__4 |     1|
+|6     |BUFG             |     1|
+|7     |CARRY4           |    61|
+|8     |DSP48E1          |    11|
+|9     |LUT1             |    15|
+|10    |LUT2             |   195|
+|11    |LUT3             |    36|
+|12    |LUT4             |   104|
+|13    |LUT5             |     4|
+|14    |FDRE             |   489|
+|15    |FDSE             |    11|
+|16    |IBUF             |    76|
+|17    |OBUF             |   160|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+-----------+---------+------+
+|      |Instance   |Module   |Cells |
++------+-----------+---------+------+
+|1     |top        |         |  1328|
+|2     |  loChan1  |loChan   |    68|
+|3     |  loChan2  |loChan_0 |    67|
+|4     |  loChan3  |loChan_1 |    67|
+|5     |  loChan4  |loChan_2 |    67|
+|6     |  loChan5  |loChan_3 |    67|
+|7     |  phaseGen |phaseGen |   755|
+|8     |    prngen |prngen   |   152|
++------+-----------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 451.906 ; gain = 268.859
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 129 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 451.906 ; gain = 257.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 451.906 ; gain = 268.859
+INFO: [Project 1-571] Translating synthesized netlist
+Reading core file 'C:/Users/puertask/Documents/local_oscillator/local_oscillator.srcs/sources_1/imports/Source/loLookup.ngc' for (cell view 'loLookup', library 'work')
+Parsing EDIF File [./.ngc2edfcache/loLookup_ngc_2efb0729.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/loLookup_ngc_2efb0729.edif]
+INFO: [Netlist 29-17] Analyzing 698 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20150528
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 355 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 85 instances
+  FD => FDRE: 5 instances
+  FDE => FDRE: 180 instances
+  FDR => FDRE: 70 instances
+  FDS => FDSE: 5 instances
+  INV => LUT1: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 124 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 523.008 ; gain = 328.160
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 523.008 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 04 16:57:22 2017...
