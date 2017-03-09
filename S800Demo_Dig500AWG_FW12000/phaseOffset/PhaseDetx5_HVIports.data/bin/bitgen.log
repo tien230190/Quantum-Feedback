@@ -1,0 +1,17 @@
+
+=== Running: Checking FPGA compatibility ===
+
+=== Running: Checking dependencies ===
+
+=== Running: Checking synthesize license ===
+
+=== Running: Custom Functions Integration ===
+
+=== Running: Top Entity Generation ===
+
+=== Running: local_synth (subtractor_wOffset) ===
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+ERROR:Synthesization cancelled.
+
+=== Run ERROR:  local_synth (subtractor_wOffset) failed ===
